@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+/* home page */
+html{
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    min-height: 8vh;
+    background-color: #000000;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 20px 20px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition-duration: 0.2;
+}
+
+.navbar ul li a:hover {
+    color:#ffc107;
+}
+
+.bg-img img{
+    height: 90vh;
+    width: 100vw;
+    filter: grayscale(30%);
+}
+.bg-img{
+    background-color: #000000;
+}
+
+.crust-pizza{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 42px;
+    width: 20vw;
+    height: auto;
+    color: rgb(0, 0, 0);
+}
+.see-menu{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    width: 15vw;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+}
+.see-menu a{
+ text-decoration: none;
+ color: white;
+ transition-duration: 0.2;
+ transition-delay: 0.1;
+}
+.see-menu a:hover{
+ color: #ffc107;
+}
+.timings{
+    position: absolute;
+    bottom: 12%;
+    background-color: #000000;
+    color: white;
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* the-menu page*/
+.menu{
+    width: 100vw;
+    background-color: #000000;
+    border-bottom: 80px solid #000000;
+}
+.the-menu{
+    text-align: center;
+    padding: 6% 0 4% 0;
+    color: #ffc107;
+}
+.menu-content{
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    background-color: #ec2b2bc2;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.menu1{
+    width: 85vw;
+    height: 69vh;
+    background-color: white;
+    color: #000000;
+    border: 2px solid white;
+}
+.pizza1{
+    display: flex;
+    color: rgb(0, 0, 0);
+    width: 23vw;
+    height: 6vh;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+.pizza1-desc{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.price1{
+    margin-left: 11%;
+    width: 4vw;
+    background-color: #f03a3ac2;
+
+}
+.vl {
+    border-left: 3px solid #ffbc94f2;
+    height:340px;
+    margin-top:79px;
+}
+.chicken{
+    margin-top: 50px;
+}
+.pizza2{
+    display: flex;
+    color: rgb(0, 0, 0);
+    width: 23vw;
+    height: 6vh;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+.pizza2-desc{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.price2{
+    margin-left: 11%;
+    width: 4vw;
+    background-color: #f03a3ac2;
+}
+
+.formaggio{
+    margin-top: 50px;
+}
+.pizza3{
+    display: flex;
+    color: rgb(0, 0, 0);
+    width: 23vw;
+    height: 6vh;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+.pizza3-desc{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.price3{
+    margin-left: 11%;
+    width: 4vw;
+    background-color: #f03a3ac2;
+}
+.menu2{
+    width: 85vw;
+    height: 69vh;
+    background-color: white;
+    color: #000000;
+    border: 2px solid white;
+}
+.menu3{
+    width: 85vw;
+    height: 69vh;
+    background-color: white;
+    color: #000000;
+    border: 2px solid white;
+}
+
+/* about-page */
+.about-content{
+    width: 100vw;
+    height: 110vh;
+    background-color: #e8acac;
+}
+.about{
+    text-align: center;
+    padding: 6% 0 4% 0;
+    color: #000000;
+}
+.paragraph1{
+    margin: 0 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+.cheff{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.img-cheff{
+    margin-left: 320px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-around;
+}
+.column-1{
+    /* background-color: red; */
+    width: 35vw;
+    height: 50vh;
+} 
+
+.column-2{
+    /* background-color: rgb(57, 230, 14); */
+    width: 35vw;
+    height: 50vh;
+}
+.opening-hours{
+    padding-top: 30px;
+}
+.opening-hours strong{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.col-1{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 26px;
+}
+.col-2{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 26px;
+}
+
+/* contact page */
+.contact-content{
+    width: 100vw;
+    height: 110vh;
+    background-color: #c0bac2;
+}
+.contact{
+    text-align: center;
+    padding: 6% 0 4% 0;
+    color: #000000;
+}
+.row1{
+    margin: 0 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.row2{
+    margin: 0 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.row3{
+    margin: 0 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.contact-form input ,button{
+    margin: 0 300px;
+    width: 50vw;
+    height:8vh;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #000000;
+    opacity: 1.0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
